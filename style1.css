@@ -1,0 +1,147 @@
+
+
+
+body {
+    background-color: white;
+    font-family: "Sofia";
+    font-size: 13px;
+
+    
+}
+
+/*User Icon*/
+
+#icon{
+
+  position:fixed;
+  float:right;
+  right:31px;
+  top:14px;
+
+}
+
+#menu{
+
+  position:fixed;
+  right:80px;
+  top:16px;
+
+}
+
+/*Main Structure*/
+.container{
+
+}
+
+.header{
+  position:fixed;
+  top: 0;
+  width: 100%;
+  
+
+}
+
+.content{
+  position:fixed;
+  width:100%;
+  margin: auto;
+ 
+  top: 210px;
+  text-align: center;
+
+}
+
+
+.footer{
+  position:fixed;
+
+  width: 100%;
+  bottom:0;
+
+  
+  text-align: center;
+
+}
+
+/*header links*/
+.topRight{
+    position: fixed;
+    top: 20px;
+    right:120px;
+
+}
+.topLeft{
+  position: fixed;
+  top: 20px;
+  Left:20px;
+}
+
+/*footer links*/
+.bottomRight{
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+
+}
+.bottomLeft{
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+}
+
+/*link styles*/
+
+a.fixed{
+  position: fixed;
+  right: 0;
+  top: 20px;
+}
+
+.topLinks{
+color: black;
+margin:10px;
+font-family: arial,sans-serif;
+text-decoration: none;
+}
+.topLinks:hover{
+  text-decoration: underline;
+  }
+
+input[type=text]{
+
+  width:30%;
+  height:25px;
+  border-radius: 14px;
+  border: 1px solid lightgrey;
+  outline: none;
+
+  background-image: url('search.png');
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+
+  padding-left: 30px;
+
+
+  
+}
+
+.searchButtons{
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  color:#5F6368;
+
+
+}
+
+.searchButtons:hover{
+  background-color: lightgrey;
+
+
+  
+}
+
